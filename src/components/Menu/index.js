@@ -1,6 +1,6 @@
 import React from "react"
 import style from "./style.module.scss"
-import Logo from '../../resources/img/favicon.png'
+import Logo from '../../images/img/favicon.png'
 
 export default () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react"
-import BoxTruck from "../../resources/img/truck.png"
+import BoxTruck from "../../images/img/truck.png"
 import style from "./style.module.scss"
 
 export default () => {

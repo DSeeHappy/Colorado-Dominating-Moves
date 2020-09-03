@@ -1,8 +1,8 @@
 import React from "react"
-import Truck from "../../resources/img/icons/truck.svg"
-import Map from "../../resources/img/icons/Map.svg"
-import Piano from "../../resources/img/icons/piano.png"
-import RoadSign from "../../resources/img/roadsign.png"
+import Truck from "../../images/img/icons/truck.svg"
+import Map from "../../images/img/icons/Map.svg"
+import Piano from "../../images/img/icons/piano.png"
+import RoadSign from "../../images/img/roadsign.png"
 import style from "./style.module.scss"
 
 export default () => {
