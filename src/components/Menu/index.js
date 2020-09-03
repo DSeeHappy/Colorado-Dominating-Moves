@@ -9,7 +9,7 @@ export default () => {
           <div className={style.menu__logo__container}>
             <div className={style.menu__logo}>
               <img
-                src="/resources/img/logo.svg"
+                src="/resources/img/favicon.png"
                 alt="Colorado Dominating Moves"
               />
               <div className={style.menu__logo__name}>
