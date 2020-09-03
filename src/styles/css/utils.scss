@@ -1,0 +1,104 @@
+@import "../mixins";
+
+.op {
+  &__descr {
+    max-width: rem(700);
+    margin: 0 auto;
+  }
+
+  &__link {
+    color: $primary;
+
+    &:hover {
+      color: lighten($primary, 10%);
+    }
+  }
+
+  &__underlined {
+    border-bottom: 1px dashed $primary;
+    display: inline-block;
+    line-height: 1.3;
+    @include transition-middle();
+
+    &:hover {
+      border-color: lighten($primary, 15%);
+    }
+  }
+
+  &__block {
+    max-width: rem(1180);
+    margin: 0 auto;
+    margin-bottom: rem(100);
+
+    &__heading {
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: rem(16);
+      font-weight: bold;
+      margin-bottom: rem(50);
+    }
+  }
+
+  &__btn {
+    display: inline-block;
+    padding: 0 rem(30);
+    font-size: rem(21);
+    color: $white !important;
+    background: $success;
+    height: rem(47);
+    line-height: rem(48) !important;
+    border: none;
+    border-radius: 10px;
+    font-weight: normal;
+    @include transition-middle();
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: lighten($success, 5%);
+      color: $white !important;
+    }
+
+    &--light {
+      color: $primary !important;
+      background: $pastel-1;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: darken($pastel-1, 3%);
+        color: $primary !important;
+      }
+    }
+
+    &--blue {
+      color: $white !important;
+      background: $primary;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: lighten($primary, 3%);
+        color: $white !important;
+      }
+    }
+
+    &--lightDark {
+      color: $black !important;
+      background: $pastel-1;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: darken($pastel-1, 3%);
+        color: $black !important;
+      }
+    }
+
+    &--small {
+      padding: 0 rem(20);
+      height: rem(34);
+      line-height: rem(35) !important;
+    }
+  }
+}

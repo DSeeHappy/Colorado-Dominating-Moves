@@ -1,0 +1,114 @@
+@import "@/styles/mixins";
+
+.promo {
+  background-image: url("/resources/img/1.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  min-height: rem(200);
+  padding: 0 0 0;
+  overflow: hidden;
+  color: $white;
+
+  :global(.op__block) {
+    margin-bottom: 0;
+  }
+
+  &__inner {
+    padding-top: rem(40);
+
+    @media (max-width: $md-max-width) {
+      padding-top: rem(20);
+    }
+
+    h1 {
+      margin: rem(60) 0 rem(50);
+      font-size: rem(48);
+      line-height: 1.1;
+
+      @media (max-width: $lg-max-width) {
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &__notification {
+    padding: rem(13);
+    background: $dark-gray-5;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 90%;
+    text-align: center;
+    border-radius: 8px;
+
+    a {
+      color: $gray-5;
+
+      &:hover,
+      &:active,
+      &:focus {
+        color: lighten($gray-5, 10%);
+      }
+    }
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0 0 rem(50);
+    padding: 0;
+
+    li {
+      display: flex;
+      align-items: center;
+      padding: rem(7);
+      font-size: rem(21);
+    }
+
+    &__icon {
+      display: inline-block;
+      width: rem(40);
+      height: rem(40);
+      text-align: center;
+      margin-right: rem(20);
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+
+      img {
+        max-height: rem(40);
+        vertical-align: top;
+      }
+
+      &__html {
+        border-radius: 100px;
+        background: $white;
+
+        img {
+          max-height: rem(30);
+        }
+      }
+
+      &__sketch {
+        img {
+          max-height: rem(35);
+        }
+      }
+    }
+  }
+
+  &__img {
+    margin-top: rem(-60);
+    min-height: rem(250);
+    position: relative;
+    user-select: none;
+
+    img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      max-height: 100%;
+    }
+  }
+}

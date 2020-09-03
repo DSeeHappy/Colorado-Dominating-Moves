@@ -1,0 +1,46 @@
+@import "@/styles/mixins";
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (max-width: $md-max-width) {
+    justify-content: space-around;
+  }
+
+  &__item {
+    width: rem(130);
+    margin-bottom: rem(40);
+    margin: 0 rem(30) rem(40);
+  }
+
+  &__title {
+    text-align: center;
+    font-size: rem(21);
+    line-height: 1.4;
+  }
+
+  &__icon {
+    width: rem(130);
+    height: rem(130);
+    background: $pastel-1;
+    border-radius: 100px;
+    margin-bottom: rem(15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: rem(60);
+    }
+  }
+}
+
+// dark theme
+[data-kit-theme="dark"] {
+  .features {
+    &__icon {
+      background: $black;
+    }
+  }
+}
