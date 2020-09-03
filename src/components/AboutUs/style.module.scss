@@ -16,14 +16,14 @@
   }
 
   &__inner {
-    padding-top: rem(40);
+    padding-top: rem(5);
 
     @media (max-width: $md-max-width) {
-      padding-top: rem(20);
+      padding-top: rem(10);
     }
 
     h1 {
-      margin: rem(60) 0 rem(50);
+      margin: rem(30) 0 rem(20);
       font-size: rem(48);
       line-height: 1.1;
 
@@ -38,8 +38,6 @@
     background-color: #08172e;
     margin-top: rem(-60);
     border-radius: rem(10);
-
-
   }
   &__Truck {
     max-height: rem(500);
@@ -84,6 +82,10 @@
       align-items: center;
       padding: rem(7);
       font-size: rem(21);
+      &__subtitle {
+        margin: auto;
+        padding:auto ;
+      }
     }
 
     &__icon {

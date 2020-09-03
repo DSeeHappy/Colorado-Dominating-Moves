@@ -28,23 +28,32 @@ const AboutUs = () => {
                   data-aos="fade-right"
                   data-aos-delay="600"
                 >
-                  <ul className={style.promo__list}>
-                    <li>
-                      <h1 className={style.promo__notification}>
-                        Professional
-                      </h1>
-                      <p>Our Loads Will &amp; Forever Be Nice &amp; Precise</p>
-
-                    </li>
-                    <li>
-                      <h1 className={style.promo__notification}>Fast</h1>
-                      <p>Our Professionals Work Hard So You Don't Have To</p>
-                    </li>
-                    <li>
-                      <h1 className={style.promo__notification}>Efficient</h1>
-                      <p>We Waste No Time Getting You To Your New Home</p>
-                    </li>
-                  </ul>
+                  <div className={style.promo__inner}>
+                    <ul className={style.promo__list}>
+                      <li>
+                        <h1 className={style.promo__notification}>
+                          Professional
+                        </h1>
+                      </li>
+                      <li>
+                        <p className={style.promo__subtitle}>
+                          Our Loads Will &amp; Forever Be Nice &amp; Precise
+                        </p>
+                      </li>
+                      <li>
+                        <h1 className={style.promo__notification}>Fast</h1>
+                      </li>
+                      <li>
+                        <p>Our Professionals Work Hard So You Don't Have To</p>
+                      </li>
+                      <li>
+                        <h1 className={style.promo__notification}>Efficient</h1>
+                      </li>
+                      <li>
+                        <p>We Waste No Time Getting You To Your New Home</p>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div className="col-md-6">
