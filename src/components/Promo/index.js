@@ -1,6 +1,6 @@
 import React from "react"
 import Truck from "../../images/img/icons/truck.svg"
-import Map from "../../images/img/icons/Map.svg"
+import Maps from "../../images/img/icons/Maps.svg"
 import Piano from "../../images/img/icons/piano.png"
 import RoadSign from "../../images/img/roadsign.png"
 import style from "./style.module.scss"
@@ -58,7 +58,7 @@ export default () => {
                         className={`${style.promo__list__icon} ${style.promo__list__icon__html}`}
                       >
                         <img
-                          src={Map}
+                          src={Maps}
                           alt="long distance moves"
                         />
                       </span>
