@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 import style from "./style.module.scss"
 
 const Menu = () => {
-  const menuData = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query {
       Logo: file(relativePath: { eq: "images/img/favicon.png" }) {
         childImageSharp {
@@ -24,7 +24,7 @@ const Menu = () => {
           <div className={style.menu__logo__container}>
             <div className={style.menu__logo}>
               <Img
-                fluid={menuData.Logo.childImageSharp.fluid}
+                fluid={data.Logo.childImageSharp.fluid}
                 alt="Colorado Dominating Moves"
               />
               <div className={style.menu__logo__name}>
