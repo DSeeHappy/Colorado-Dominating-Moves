@@ -16,6 +16,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,
+    `gatsby-transformer-inline-svg`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -42,6 +43,13 @@ module.exports = {
           families: ["Feather"],
           urls: ["/resources/fonts/font-feathericons/dist/feather.css"],
         },
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
       },
     },
     // {

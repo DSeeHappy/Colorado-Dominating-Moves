@@ -1,16 +1,30 @@
 import React from "react"
-import style from "./style.module.scss"
-import Logo from '../../images/img/favicon.png'
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
-export default () => {
+import style from "./style.module.scss"
+
+const Menu = () => {
+  const menuData = useStaticQuery(graphql`
+    query {
+      Logo: file(relativePath: { eq: "images/img/favicon.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <div className={style.menu}>
       <div className="op__block">
         <div className={style.menu__inner}>
           <div className={style.menu__logo__container}>
             <div className={style.menu__logo}>
-              <img
-                src={Logo}
+              <Img
+                fluid={menuData.Logo.childImageSharp.fluid}
                 alt="Colorado Dominating Moves"
               />
               <div className={style.menu__logo__name}>
@@ -23,19 +37,19 @@ export default () => {
             </div>
           </div>
           <div className={style.menu__links}>
-            <a href="/" rel="noopener noreferrer">
+            <a href="#LocalServices" rel="noopener noreferrer">
               Local Services
             </a>
-            <a href="/" rel="noopener noreferrer">
+            <a href="#LongDistanceServices" rel="noopener noreferrer">
               Long Distance Services
             </a>
             <a href="#Service Area" rel="noopener noreferrer">
               Service Area
             </a>
-            <a href="/" rel="noopener noreferrer">
+            <a href="#HireUs" rel="noopener noreferrer">
               Hire Us
             </a>
-            <a href="/" rel="noopener noreferrer">
+            <a href="#MovingChecklist" rel="noopener noreferrer">
               Moving Checklist
             </a>
           </div>
@@ -44,3 +58,4 @@ export default () => {
     </div>
   )
 }
+export default Menu

@@ -101,18 +101,14 @@
   &__img {
     min-height: rem(450);
     position: relative;
-    user-select: none;
-    @media (min-width: $md-max-width) {
+    max-height: 100%;
+
+    @media (max-width: $lg-max-width) {
       position: absolute;
       right: 0;
-      bottom: 0;
+      top: 0;
     }
 
-    img {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      max-height: 100%;
-    }
+    
   }
 }

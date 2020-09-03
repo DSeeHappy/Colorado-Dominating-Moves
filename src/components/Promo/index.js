@@ -1,11 +1,22 @@
 import React from "react"
-import Truck from "../../images/img/icons/truck.svg"
-import Maps from "../../images/img/icons/Maps.svg"
-import Piano from "../../images/img/icons/piano.png"
-import RoadSign from "../../images/img/roadsign.png"
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
+
 import style from "./style.module.scss"
 
-export default () => {
+const Promo = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      RoadSign: file(relativePath: { eq: "images/img/roadsign.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <>
       <div className={style.promo}>
@@ -43,36 +54,15 @@ export default () => {
                     data-aos-delay="200"
                   >
                     <li>
-                      <span
-                        className={`${style.promo__list__icon} ${style.promo__list__icon__html}`}
-                      >
-                        <img
-                          src={Truck}
-                          alt="local moves"
-                        />
-                      </span>
+                      <i class="fas fa-truck"></i>
                       <span>Local Moves</span>
                     </li>
                     <li>
-                      <span
-                        className={`${style.promo__list__icon} ${style.promo__list__icon__html}`}
-                      >
-                        <img
-                          src={Maps}
-                          alt="long distance moves"
-                        />
-                      </span>
+                      <i class="fas fa-truck-loading"></i>
                       <span>Long Distance Moves</span>
                     </li>
                     <li>
-                      <span
-                        className={`${style.promo__list__icon} ${style.promo__list__icon__html}`}
-                      >
-                        <img
-                          src={Piano}
-                          alt="piano"
-                        />
-                      </span>
+                      <i class="fas fa-truck-loading"></i>
                       <span>Specialty Furniture</span>
                     </li>
                     <div
@@ -80,7 +70,7 @@ export default () => {
                       data-aos="fade-right"
                       data-aos-delay="300"
                     >
-                      <a href="/" className="op__btn mr-3">
+                      <a href="tel:7208297961" className="op__btn mr-3">
                         Call Now
                       </a>
                       <a href="/" className="op__btn op__btn--lightDark">
@@ -95,9 +85,8 @@ export default () => {
                     data-aos="fade-up"
                     data-aos-delay="300"
                   >
-                    <img
-                      className="align-items-bottom"
-                      src={RoadSign}
+                    <Img
+                      fluid={data.RoadSign.childImageSharp.fluid}
                     />
                   </div>
                 </div>
@@ -109,3 +98,4 @@ export default () => {
     </>
   )
 }
+export default Promo
