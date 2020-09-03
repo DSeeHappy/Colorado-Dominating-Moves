@@ -1,4 +1,5 @@
 import React from "react"
+import BoxTruck from "../../resources/img/truck.png"
 import style from "./style.module.scss"
 
 export default () => {
@@ -9,7 +10,7 @@ export default () => {
         data-aos="fade-left"
         data-aos-delay="600"
       >
-        <img src="/resources/img/truck.png" />
+        <img src={BoxTruck} />
       </div>
       <div
         className={style.promo__img}

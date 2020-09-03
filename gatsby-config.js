@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Colorado Dominating Moves`,
-        icon: `./resources/img/favicon.png`,
+        icon: `./src/resources/img/favicon.png`,
       },
     },
     {

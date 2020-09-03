@@ -1,5 +1,6 @@
 import React from "react"
 import style from "./style.module.scss"
+import Logo from '../../resources/img/favicon.png'
 
 export default () => {
   return (
@@ -9,7 +10,7 @@ export default () => {
           <div className={style.menu__logo__container}>
             <div className={style.menu__logo}>
               <img
-                src="/resources/img/favicon.png"
+                src={Logo}
                 alt="Colorado Dominating Moves"
               />
               <div className={style.menu__logo__name}>

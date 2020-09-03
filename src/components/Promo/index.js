@@ -1,4 +1,8 @@
 import React from "react"
+import Truck from "../../resources/img/icons/truck.svg"
+import Map from "../../resources/img/icons/Map.svg"
+import Piano from "../../resources/img/icons/piano.png"
+import RoadSign from "../../resources/img/roadsign.png"
 import style from "./style.module.scss"
 
 export default () => {
@@ -43,7 +47,7 @@ export default () => {
                         className={`${style.promo__list__icon} ${style.promo__list__icon__html}`}
                       >
                         <img
-                          src="/resources/img/icons/truck.svg"
+                          src={Truck}
                           alt="local moves"
                         />
                       </span>
@@ -54,7 +58,7 @@ export default () => {
                         className={`${style.promo__list__icon} ${style.promo__list__icon__html}`}
                       >
                         <img
-                          src="/resources/img/icons/map.svg"
+                          src={Map}
                           alt="long distance moves"
                         />
                       </span>
@@ -65,7 +69,7 @@ export default () => {
                         className={`${style.promo__list__icon} ${style.promo__list__icon__html}`}
                       >
                         <img
-                          src="/resources/img/icons/piano.png"
+                          src={Piano}
                           alt="piano"
                         />
                       </span>
@@ -93,7 +97,7 @@ export default () => {
                   >
                     <img
                       className="align-items-bottom"
-                      src="/resources/img/roadsign.png"
+                      src={RoadSign}
                     />
                   </div>
                 </div>
