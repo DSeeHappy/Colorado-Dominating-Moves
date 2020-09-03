@@ -1,5 +1,4 @@
 import React from "react"
-import General19 from "../kit/widgets/General/19"
 import style from "./style.module.scss"
 
 export default () => {
@@ -17,7 +16,6 @@ export default () => {
         data-aos="fade-right"
         data-aos-delay="600"
       >
-        <General19 />
       </div>
     </>
   )
