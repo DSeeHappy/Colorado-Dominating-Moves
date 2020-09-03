@@ -38,7 +38,7 @@ const Promo = () => {
             <div className="row">
               <div className="col-md-7">
                 <h1 data-aos="fade-right">
-                  Discover The Greatness Of Colorado
+                  Colorado's Most Professional Movers
                 </h1>
                 <p className="text" data-aos="fade-right" data-aos-delay="100">
                   Let Our Professional Home &amp; Office Movers Worry About Your
