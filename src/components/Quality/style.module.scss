@@ -1,10 +1,30 @@
 @import "@/styles/mixins";
+.center{
+  background-color: #d3d3d3;
 
+  &__content{
+    padding-top:rem(80);
+    margin:rem(20);
+  }
+}
 .rec {
   &__item {
     padding-left: rem(72);
     position: relative;
     padding-top: rem(20);
+  }
+  &__iteminsured {
+    padding-left: rem(72);
+    position: relative;
+    padding-top: rem(20);
+    min-width: rem(120);
+  }
+  &__itemquote {
+    padding-left: rem(72);
+    position: relative;
+    padding-top: rem(20);
+    min-width: rem(140);
+
   }
   &__icon {
     font-size: rem(54);
