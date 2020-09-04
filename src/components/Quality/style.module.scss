@@ -1,10 +1,15 @@
 @import "@/styles/mixins";
-.center{
+.center {
   background-color: #d3d3d3;
 
-  &__content{
-    padding-top:rem(80);
-    margin:rem(20);
+  &__content {
+    padding-top: rem(80);
+    margin: rem(20);
+  }
+  &__callbtn {
+    margin: auto;
+    padding: auto;
+    padding-top:rem(40);
   }
 }
 .rec {
@@ -24,7 +29,6 @@
     position: relative;
     padding-top: rem(20);
     min-width: rem(140);
-
   }
   &__icon {
     font-size: rem(54);
