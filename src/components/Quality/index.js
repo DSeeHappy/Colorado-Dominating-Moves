@@ -35,23 +35,27 @@ const Quality = () => {
         <div className="container-fluid">
           <div className="row">
             <div className=" col-12 col-md-6">
-              <Img fluid={data.FamilyHands.childImageSharp.fluid} />
+              <Img className={style.center__imglrg} fluid={data.FamilyHands.childImageSharp.fluid} />
             </div>
 
             <div className="col-12 col-md-6">
               <div className={style.center__content}>
-                <h3 className="text-center mb-4">
-                  Quality Licensed Professionals
-                </h3>
-                <p className="op__descr text-center text-muted mb-5">
-                  Our moving teams are trained and always ready to help you with
-                  your move. We understand when you select a moving company its
-                  more than just stuff we're moving. It's what makes your house
-                  a home and we want to respect that on every level. From the
-                  loading stacked to the tip top of the truck to the delivery to
-                  your new home. Our professional are always making sure their
-                  first priority is Quality Service.
-                </p>
+                <div className={style.center__title}>
+                  <h3 className="text-center mb-4 ">
+                    Quality Licensed Professionals
+                  </h3>
+                </div>
+                <div className={style.center__body}>
+                  <p className="op__descr text-center text-muted mb-5">
+                    Our moving teams are trained and always ready to help you
+                    with your move. We understand when you select a moving
+                    company its more than just stuff we're moving. It's what
+                    makes your house a home and we want to respect that on every
+                    level. From the loading stacked to the tip top of the truck
+                    to the delivery to your new home. Our professional are
+                    always making sure their first priority is Quality Service.
+                  </p>
+                </div>
                 <div className="row">
                   <div className=" col-sm-5 col-md-5 col-12">
                     <div
@@ -76,7 +80,10 @@ const Quality = () => {
                     data-aos="fade-up"
                     data-aos-delay="600"
                   >
-                    <a href="tel:7208297961" className="op__btn op__btn--blue mr-3">
+                    <a
+                      href="tel:7208297961"
+                      className="op__btn op__btn--blue mr-3"
+                    >
                       Call Now
                     </a>
                   </div>

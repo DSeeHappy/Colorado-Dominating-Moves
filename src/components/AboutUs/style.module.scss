@@ -36,13 +36,12 @@
   }
   &__center {
     background-color: #08172e;
-    margin-top: rem(-60);
+    margin-top: rem(-10);
     border-radius: rem(10);
+    box-shadow: rem(10) rem(10) #fdb41a;
   }
   &__Truck {
-   
     margin-left: auto;
-    margin-bottom: rem(100);
     z-index: 10;
     @media (min-width: $md-max-width) {
       position: absolute;
@@ -50,7 +49,9 @@
       bottom: 0;
     }
   }
-
+  &__Sign {
+    max-width: rem(348);
+  }
   &__notification {
     padding: rem(13);
     background: #fff;
@@ -60,8 +61,7 @@
     text-align: center;
     border-radius: 8px;
     box-shadow: 5px 10px #fdb41a;
-
-
+    margin: auto;
     a {
       color: $gray-5;
 
@@ -85,7 +85,7 @@
       font-size: rem(21);
       &__subtitle {
         margin: auto;
-        padding:auto ;
+        padding: auto;
       }
     }
 

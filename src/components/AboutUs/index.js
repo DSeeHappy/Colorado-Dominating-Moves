@@ -15,6 +15,13 @@ const AboutUs = () => {
           }
         }
       }
+      RoadSign: file(relativePath: { eq: "images/img/roadsign.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
@@ -62,6 +69,16 @@ const AboutUs = () => {
                       </ul>
                     </div>
                   </div>
+                  <div
+                    className={style.promo__img}
+                    data-aos="fade-left"
+                    data-aos-delay="600"
+                  >
+                    <Img
+                      className={style.promo__Truck}
+                      fluid={data.Truck.childImageSharp.fluid}
+                    />
+                  </div>
                 </div>
                 <div className="col-md-6">
                   <div
@@ -76,7 +93,6 @@ const AboutUs = () => {
                             Over 10 years Experience
                           </h1>
                         </li>
-
                         <li>
                           <p className={style.promo__subtitle}>
                             Our Professionals Have The Experience To Handle Even
@@ -95,12 +111,12 @@ const AboutUs = () => {
                   </div>
                   <div
                     className={style.promo__img}
-                    data-aos="fade-left"
-                    data-aos-delay="600"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
                   >
                     <Img
-                      className={style.promo__Truck}
-                      fluid={data.Truck.childImageSharp.fluid}
+                      className={style.promo__Sign}
+                      fluid={data.RoadSign.childImageSharp.fluid}
                     />
                   </div>
                 </div>

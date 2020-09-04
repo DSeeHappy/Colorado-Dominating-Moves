@@ -6,10 +6,27 @@
     padding-top: rem(80);
     margin: rem(20);
   }
+  &__title {
+    color: #08172e;
+    background-color: #fff;
+    box-shadow: rem(10) rem(10) #fdb41a;
+    border-radius: 8px;
+  }
+  &__body {
+    background-color: #fff;
+    box-shadow: rem(10) rem(10) #fdb41a;
+    border-radius: 8px;
+  }
+  &__imglrg {
+    @media (max-width: $lg-max-width) {
+      box-shadow: rem(10) rem(10) #fdb41a;
+      border-radius: 8px;
+    }
+  }
   &__callbtn {
     margin: auto;
     padding: auto;
-    padding-top:rem(40);
+    padding-top: rem(40);
   }
 }
 .rec {

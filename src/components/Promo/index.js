@@ -74,13 +74,6 @@ const Promo = () => {
                     </a>
                   </div>
                 </ul>
-                <div
-                  className={style.promo__img}
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
-                  <Img  fluid={data.RoadSign.childImageSharp.fluid} />
-                </div>
               </div>
             </div>
           </div>
