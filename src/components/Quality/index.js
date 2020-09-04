@@ -76,7 +76,7 @@ const Quality = () => {
                     data-aos="fade-up"
                     data-aos-delay="600"
                   >
-                    <a href="tel:7208297961" className="op__btn mr-3">
+                    <a href="tel:7208297961" className="op__btn op__btn--blue mr-3">
                       Call Now
                     </a>
                   </div>

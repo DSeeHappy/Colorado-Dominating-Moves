@@ -1,7 +1,6 @@
 import React from "react"
 import MainLayout from "@/layouts/MainLayout"
 import Promo from "@/components/Promo"
-import Carousel from "@/components/Carousel"
 import Services from "@/components/Services"
 import AboutUs from "@/components/AboutUs"
 
@@ -19,7 +18,6 @@ export default () => {
       <Services />
       <Quality />
 
-      <Carousel />
 
       <MovingChecklist />
       <Reviews />
