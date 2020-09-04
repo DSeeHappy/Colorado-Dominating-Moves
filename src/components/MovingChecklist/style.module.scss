@@ -1,12 +1,26 @@
 @import "@/styles/mixins";
-
-.pricing {
+.heading {
+  padding: auto;
+  margin: auto;
+  padding-top: rem(30);
+  &__title {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 8px 8px #a7a39b;
+  }
+  &__body {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 8px 8px #a7a39b;
+  }
+}
+.card {
   &__item {
     border: 1px solid $border;
     border-radius: 10px;
     padding: rem(60) rem(50) rem(70);
     text-align: center;
-
+    background-color: hsla(41, 98%, 55%, 0.932);
     h4 {
       font-weight: bold;
       font-size: rem(24);
@@ -23,11 +37,11 @@
     }
   }
 
-  &__price {
+  &__subtitle {
     font-size: rem(24);
   }
 
-  &__prices {
+  &__main {
     line-height: 1.2;
     margin-bottom: rem(40);
   }
