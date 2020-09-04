@@ -1,4 +1,7 @@
 @import "@/styles/mixins";
+.background {
+  background-size: 50% 50%;
+}
 .heading {
   padding: auto;
   margin: auto;
@@ -7,6 +10,7 @@
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 8px 8px #a7a39b;
+    margin-top: rem(10);
   }
   &__body {
     background-color: #fff;

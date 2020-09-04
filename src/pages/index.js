@@ -22,7 +22,6 @@ export default () => {
       <MovingChecklist />
       <Reviews />
       <ServiceArea />
-      <Form />
     </MainLayout>
   )
 }

@@ -11,7 +11,7 @@ const MovingChecklist = () => {
       TrucksBacks: file(relativePath: { eq: "images/img/truckinsides.png" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
@@ -23,6 +23,7 @@ const MovingChecklist = () => {
       Tag="section"
       fluid={data.TrucksBacks.childImageSharp.fluid}
       backgroundColor={`#fdb41a`}
+      className={style.heading}
     >
       <div className="op__block">
         <div className="container-fluid">
