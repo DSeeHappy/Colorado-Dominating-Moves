@@ -17,13 +17,15 @@ const Quality = () => {
   `)
   return (
     <>
-      <div className="op__block">
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-md-4 col-6">
+          <div className=" col-6">
             <Img fluid={data.FamilyHands.childImageSharp.fluid} />
           </div>
-
-          <div className="container-fluid">
+          <div className={style.truck}>
+            <Img fluid={data.FamilyHands.childImageSharp.fluid} />
+          </div>
+          <div className="col-6">
             <h3 className="text-center mb-4">Quality &amp; Licensed</h3>
             <p className="op__descr text-center text-muted mb-5">
               Our moving teams are trained and always ready to help you with
@@ -35,128 +37,28 @@ const Quality = () => {
               is Quality Service.
             </p>
             <div className="row">
-              <div className="col-sm-4 col-6">
-                <div
-                  className={style.rec__item}
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  <div className={style.rec__icon}>
-                    <i className="fe fe-activity"></i>
-                  </div>
-                  <div className="mb-2">
-                    <strong>Amazing content</strong>
-                  </div>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="/" className="op__link">
-                        Mdtk Soft Team Playbook
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="op__link">
-                        Agile development
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="op__link">
-                        Git tutorials
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="op__link">
-                        Service management
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="op__link">
-                        Continuous delivery
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-sm-4 col-6">
-                <div
-                  className={style.rec__item}
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                >
-                  <div className={style.rec__icon}>
-                    <i className="fe fe-star"></i>
-                  </div>
-                  <div className="mb-2">
-                    <strong>Amazing content</strong>
-                  </div>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="/" className="op__link">
-                        Mdtk Soft Team Playbook
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="op__link">
-                        Agile development
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="op__link">
-                        Git tutorials
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="op__link">
-                        Service management
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="op__link">
-                        Continuous delivery
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-sm-4 col-6">
+              <div className=" col-6">
                 <div
                   className={style.rec__item}
                   data-aos="fade-up"
                   data-aos-delay="600"
                 >
-                  <div className={style.rec__icon}>
-                    <i className="fe fe-zap"></i>
-                  </div>
-                  <div className="mb-2">
-                    <strong>Amazing content</strong>
-                  </div>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="/" className="op__link">
-                        Mdtk Soft Team Playbook
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="op__link">
-                        Agile development
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="op__link">
-                        Git tutorials
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="op__link">
-                        Service management
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="op__link">
-                        Continuous delivery
-                      </a>
-                    </li>
-                  </ul>
+                  <Img fluid={data.FamilyHands.childImageSharp.fluid} />
                 </div>
+              </div>
+              <div className=" col-6">
+                <div
+                  className={style.rec__item}
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
+                  <Img fluid={data.FamilyHands.childImageSharp.fluid} />
+                </div>
+              </div>
+              <div className=" col-12" data-aos="fade-up" data-aos-delay="600">
+                <a href="tel:7208297961" className="op__btn mr-3">
+                  Call Now
+                </a>
               </div>
             </div>
           </div>

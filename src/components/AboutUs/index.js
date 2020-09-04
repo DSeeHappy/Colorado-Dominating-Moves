@@ -1,6 +1,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { Divider } from "antd"
+
 import style from "./style.module.scss"
 
 const AboutUs = () => {
@@ -64,16 +66,6 @@ const AboutUs = () => {
                 <div className="col-md-6">
                   <div
                     className={style.promo__img}
-                    data-aos="fade-left"
-                    data-aos-delay="600"
-                  >
-                    <Img
-                      className={style.promo__Truck}
-                      fluid={data.Truck.childImageSharp.fluid}
-                    />
-                  </div>
-                  <div
-                    className={style.promo__img}
                     data-aos="fade-up"
                     data-aos-delay="600"
                   >
@@ -84,16 +76,32 @@ const AboutUs = () => {
                             Over 10 years Experience
                           </h1>
                         </li>
+
                         <li>
                           <p className={style.promo__subtitle}>
-                          Our Professionals Have The Experience To Handle Even The Toughest Loads.
-                      
+                            Our Professionals Have The Experience To Handle Even
+                            The Toughest Loads.
+                            <br />
+                            We have helped numerous people move their home and
+                            business. Colorado Dominating Moves is always
+                            dominating the competition in Quality of Service.
+                            Because at the end of the day, what matters is your
+                            house becoming a home, and with our help that
+                            transition will happen smoothly.
                           </p>
                         </li>
-                        
-                        
                       </ul>
                     </div>
+                  </div>
+                  <div
+                    className={style.promo__img}
+                    data-aos="fade-left"
+                    data-aos-delay="600"
+                  >
+                    <Img
+                      className={style.promo__Truck}
+                      fluid={data.Truck.childImageSharp.fluid}
+                    />
                   </div>
                 </div>
               </div>
