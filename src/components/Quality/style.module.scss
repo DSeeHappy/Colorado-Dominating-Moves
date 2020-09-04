@@ -19,6 +19,7 @@
     border-radius: 8px;
   }
   &__imglrg {
+    max-width: rem(740);
     @media (max-width: $lg-max-width) {
       box-shadow: rem(10) rem(10) #fdb41a;
       border-radius: 8px;

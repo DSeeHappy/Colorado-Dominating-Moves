@@ -36,10 +36,15 @@ const MovingChecklist = () => {
               <p className=" text-center">
                 We understand moving is stressful, thats why we would like to
                 provide you our simple checklist to make sure you don't forget
-                anything. The earlier you can prepare, the less headaches you
-                will have during moving day.
+                anything. 
               </p>
             </div>
+            <div className={style.heading__body}>
+            <p className=" text-center">
+             The earlier you can prepare, the less headaches you
+              will have during moving day.
+            </p>
+          </div>
           </div>
           <div className="row">
             <div className="col-lg-4">

@@ -19,8 +19,10 @@
     border: 1px solid $border;
     border-radius: 10px;
     padding: rem(60) rem(50) rem(70);
+    margin: rem(6) rem(5) rem(7);
     text-align: center;
     background-color: hsla(41, 98%, 55%, 0.932);
+    min-height: rem(500);
     h4 {
       font-weight: bold;
       font-size: rem(24);
