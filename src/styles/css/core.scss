@@ -17,7 +17,7 @@ body {
   line-height: 1.66;
   font-family: $base-font-family;
   color: $black;
-  overflow-x: hidden;
+  overflow-x: clip;
   position: relative;
   width: 100%;
   height: 100%;
