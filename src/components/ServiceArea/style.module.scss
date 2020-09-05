@@ -1,7 +1,6 @@
 @import "@/styles/mixins";
 
 .unlock {
-  background: $black;
   color: $white;
   text-align: center;
   margin-bottom: rem(110);
@@ -31,9 +30,48 @@
 
   &__tag {
     display: inline-block;
-    padding: rem(10) rem(30);
-    background: #15244a;
+    padding: auto;
+    background: hsla(223, 57%, 19%, 0.842);
     border-radius: 10px;
-    margin: 0 20px;
+    margin: rem(20) rem(10);
+
+  }
+}
+.card {
+  &__item {
+    border: 1px solid $border;
+    border-radius: 10px;
+    color:hsla(216, 70%, 11%, 0.83);
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(253, 181, 28, 0.732);
+    h1 {
+     
+
+    }
+    li {
+      list-style-type: none;
+      padding: auto;
+      margin: auto;
+    }
+    p {
+      margin-bottom: rem(40);
+
+    }
+
+    @media (max-width: $lg-max-width) {
+      max-width: rem(600);
+      margin: 0 auto rem(40);
+    }
+  }
+
+  &__subtitle {
+    font-size: rem(24);
+  }
+
+  &__main {
+    line-height: 1.2;
+    margin-bottom: rem(40);
   }
 }

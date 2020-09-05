@@ -49,7 +49,7 @@ const Menu = () => {
             <a href="#HireUs" rel="noopener noreferrer">
               Hire Us
             </a>
-            <a href="#MovingChecklist" rel="noopener noreferrer">
+            <a href="#Moving_Checklist" rel="noopener noreferrer">
               Moving Checklist
             </a>
           </div>

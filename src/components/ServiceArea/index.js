@@ -1,33 +1,67 @@
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
+import BackgroundImage from "gatsby-background-image"
 import style from "./style.module.scss"
 
 export default () => {
+  const data = useStaticQuery(graphql`
+    query {
+      Background: file(relativePath: { eq: "images/img/locationcdm.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
   return (
-    <div id="Service Area" className={style.unlock}>
-      <div className="op__block">
-        <div className={style.unlock__container}>
-          <div className="container-fluid">
-            <h1 data-aos="fade-left" data-aos-delay="200">
-              Proudly Serving All of Denver Metro Area  &amp; the Surrounding
-              Areas Including:
-            </h1>
-            <p data-aos="fade-right" data-aos-delay="400">
-              Aurora | Lakewood | Englewood | Westminster | Arvada | Commerce
-              City | Greenwood Village | Parker | Highlands Ranch | Littleton |
-              Broomfield | Longmont | Colorado Springs | Boulder | Golden |
-              Castle Rock | Fort Collins
-            </p>
-            <a
-              href="/"
-              className="op__btn"
-              data-aos="fade-left"
-              data-aos-delay="600"
-            >
-              Call Now
-            </a>
+    <BackgroundImage
+      id="Moving_Checklist"
+      Tag="section"
+      fluid={data.Background.childImageSharp.fluid}
+      backgroundColor={`#fdb41a`}
+      className={style.heading}
+    >
+      <div id="Service Area" className={style.unlock}>
+        <div className="op__block">
+          <div className={style.unlock__container}>
+            <div className="container-fluid">
+              <div
+                data-aos="fade-left"
+                data-aos-delay="200"
+                className={style.card__item}
+              >
+                <h1>
+                  Proudly Serving All of Denver Metro Area &amp; the Surrounding
+                  Areas Including:
+                </h1>
+              </div>
+              <div
+                data-aos="fade-right"
+                data-aos-delay="400"
+                className={style.unlock__tag}
+              >
+                <p >
+                  Aurora | Lakewood | Englewood | Westminster | Arvada |
+                  Commerce City | Greenwood Village | Parker | Highlands Ranch |
+                  Littleton | Broomfield | Longmont | Colorado Springs | Boulder
+                  | Golden | Castle Rock | Fort Collins
+                </p>
+              </div>
+              <a
+                href="tel:7208297961"
+                className="op__btn  op__btn--blue"
+                data-aos="fade-left"
+                data-aos-delay="600"
+              >
+                Call Now
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </BackgroundImage>
   )
 }
