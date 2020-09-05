@@ -18,9 +18,7 @@ export default () => {
       <Services />
       <Quality />
 
-
       <MovingChecklist />
-      <Reviews />
       <ServiceArea />
     </MainLayout>
   )

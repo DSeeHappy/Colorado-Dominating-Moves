@@ -31,7 +31,6 @@ const Menu = () => {
                 Colorado Dominating Moves
               </div>
               <div className={style.menu__logo__descr}>
-                {" "}
                 Professional, Fast, Efficient
               </div>
             </div>
