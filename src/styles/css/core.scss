@@ -5,11 +5,6 @@ html {
   @media (max-width: $lg-max-width) {
     font-size: 16px;
   }
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
 }
 
 body {
@@ -17,12 +12,7 @@ body {
   line-height: 1.66;
   font-family: $base-font-family;
   color: $black;
-  overflow-x: clip;
   position: relative;
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
 }
 
 a {

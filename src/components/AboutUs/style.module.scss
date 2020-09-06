@@ -1,10 +1,6 @@
 @import "@/styles/mixins";
 
 .promo {
-  background-image: url("/resources/img/1.png");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
   min-height: rem(200);
   padding: 0 0 0;
   overflow: visible;
@@ -38,7 +34,7 @@
     background-color: #08172e;
     margin-top: rem(-10);
     border-radius: rem(10);
-    box-shadow: rem(10) rem(10) #fdb41a;
+    box-shadow: 0 0 0 rem(10) #f2b121;
   }
   &__Truck {
     margin-left: auto;
@@ -50,17 +46,17 @@
     }
   }
   &__Sign {
-    max-width: rem(348);
+    max-width: rem(310);
   }
   &__notification {
-    padding: rem(13);
+    padding: rem(5);
     background: #fff;
     color: #08172e;
     font-family: "Courier New", Courier, monospace;
     font-size: 90%;
     text-align: center;
     border-radius: 8px;
-    box-shadow: 5px 10px #fdb41a;
+    box-shadow: 0 0 0 rem(5) #fdb41a;
     margin: auto;
     a {
       color: $gray-5;

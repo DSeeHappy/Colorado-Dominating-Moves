@@ -32,11 +32,7 @@ const AboutUs = () => {
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
-                  <div
-                    className={style.promo__img}
-                    data-aos="fade-right"
-                    data-aos-delay="600"
-                  >
+                  <div className={style.promo__img} data-aos="fade-up">
                     <div className={style.promo__inner}>
                       <ul className={style.promo__list}>
                         <li>
@@ -68,11 +64,7 @@ const AboutUs = () => {
                       </ul>
                     </div>
                   </div>
-                  <div
-                    className={style.promo__img}
-                    data-aos="fade-left"
-                    data-aos-delay="600"
-                  >
+                  <div className={style.promo__img} data-aos="fade-up">
                     <Img
                       className={style.promo__Truck}
                       fluid={data.Truck.childImageSharp.fluid}
@@ -89,7 +81,7 @@ const AboutUs = () => {
                       <ul className={style.promo__list}>
                         <li>
                           <h1 className={style.promo__notification}>
-                            Over 10 years Experience
+                            Highly Experienced Professionals
                           </h1>
                         </li>
                         <li>
@@ -108,11 +100,7 @@ const AboutUs = () => {
                       </ul>
                     </div>
                   </div>
-                  <div
-                    className={style.promo__img}
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                  >
+                  <div className={style.promo__img} data-aos="fade-up">
                     <Img
                       className={style.promo__Sign}
                       fluid={data.RoadSign.childImageSharp.fluid}
