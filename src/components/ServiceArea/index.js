@@ -29,21 +29,21 @@ export default () => {
           <div className={style.unlock__container}>
             <div className="container-fluid">
               <div
-                data-aos="fade-left"
+                data-aos="fade-down"
                 data-aos-delay="200"
                 className={style.card__item}
               >
                 <h1>
-                  Proudly Serving All of Denver Metro Area &amp; the Surrounding
-                  Areas Including:
+                  Proudly Serving The Entire Denver Metro Area &amp; the
+                  Surrounding Areas Including:
                 </h1>
               </div>
               <div
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-delay="400"
                 className={style.unlock__tag}
               >
-                <p >
+                <p>
                   Aurora | Lakewood | Englewood | Westminster | Arvada |
                   Commerce City | Greenwood Village | Parker | Highlands Ranch |
                   Littleton | Broomfield | Longmont | Colorado Springs | Boulder

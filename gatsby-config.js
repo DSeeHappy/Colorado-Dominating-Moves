@@ -37,7 +37,7 @@ module.exports = {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
         google: {
-          families: ["oswald:400,700"],
+          families: ["Mukta:400,700,800"],
         },
         custom: {
           families: ["Feather"],

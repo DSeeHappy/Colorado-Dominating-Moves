@@ -45,12 +45,12 @@ const Promo = () => {
             <div className={style.promo__inner}>
               <div className="row">
                 <div className="col-md-7">
-                  <h1 data-aos="fade-right">
+                  <h1 data-aos="fade-up">
                     Colorado's Most Professional Movers
                   </h1>
                   <p
                     className="text"
-                    data-aos="fade-right"
+                    data-aos="fade-down"
                     data-aos-delay="100"
                   >
                     Let Our Professional Home &amp; Office Movers Worry About
@@ -58,7 +58,7 @@ const Promo = () => {
                   </p>
                   <ul
                     className={style.promo__list}
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-delay="200"
                   >
                     <li>
