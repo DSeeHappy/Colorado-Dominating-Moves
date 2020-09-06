@@ -35,7 +35,10 @@ const Quality = () => {
         <div className="container-fluid">
           <div className="row">
             <div className=" col-12 col-md-6">
-              <Img className={style.center__imglrg} fluid={data.FamilyHands.childImageSharp.fluid} />
+              <Img
+                className={style.center__imglrg}
+                fluid={data.FamilyHands.childImageSharp.fluid}
+              />
             </div>
 
             <div className="col-12 col-md-6">
@@ -45,15 +48,20 @@ const Quality = () => {
                     Quality Licensed Professionals
                   </h3>
                 </div>
+
                 <div className={style.center__body}>
                   <p className="op__descr text-center text-muted mb-5">
                     Our moving teams are trained and always ready to help you
-                    with your move. We understand when you select a moving
-                    company its more than just stuff we're moving. It's what
-                    makes your house a home and we want to respect that on every
-                    level. From the loading stacked to the tip top of the truck
-                    to the delivery to your new home. Our professional are
-                    always making sure their first priority is Quality Service.
+                    with your move.
+                    <hr />
+                    We understand when you select a moving company its more than
+                    just stuff we're moving. It's what makes your house a home
+                    and we want to respect that on every level.
+                    <br />
+                    From the loading stacked to the tip top of the truck to the
+                    delivery to your new home.
+                    <hr /> Our professional are always making sure their first
+                    priority is High Quality Service.
                   </p>
                 </div>
                 <div className="row">

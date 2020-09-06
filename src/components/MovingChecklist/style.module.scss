@@ -10,13 +10,15 @@
   &__title {
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 8px 8px #a7a39b;
+    box-shadow: 0 0 0 rem(5) #a7a39b;
     margin-top: rem(10);
+    padding: auto;
+    margin: auto;
   }
   &__body {
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 8px 8px #a7a39b;
+    box-shadow: 0 0 0 rem(5) #a7a39b;
   }
 }
 .card {
@@ -27,23 +29,34 @@
     margin: rem(6) rem(5) rem(7);
     text-align: center;
     background-color: hsla(41, 98%, 55%, 0.932);
-    min-height: rem(500);
+    min-height: rem(650);
     h4 {
       font-weight: bold;
       font-size: rem(24);
-      margin-bottom: rem(40);
+      text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    }
+    ul {
+      padding: 0;
+      margin: 0;
     }
     li {
       list-style-type: none;
-      padding: auto;
-      margin: auto;
+      padding: rem(5);
+      margin: rem(2);
     }
     p {
-      margin-bottom: rem(40);
+      text-shadow: 1px 1px 2px rgb(255, 255, 255);
+      color: $blue;
+
+      @media (max-width: $sm-max-width) {
+        max-width: rem(640);
+        margin: 0 auto rem(40);
+        padding: rem(20);
+      }
     }
 
-    @media (max-width: $lg-max-width) {
-      max-width: rem(600);
+    @media (min-width: $lg-max-width) {
+      max-width: rem(640);
       margin: 0 auto rem(40);
     }
   }
