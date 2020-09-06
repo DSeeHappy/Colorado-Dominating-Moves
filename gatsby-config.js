@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-transformer-inline-svg`,
+    'gatsby-plugin-instagram-embed',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -52,19 +53,25 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: "",
-    //   },
-    // },
-    // {
-    //   resolve: `gatsby-plugin-yandex-metrika`,
-    //   options: {
-    //     trackingId: "",
-    //     webvisor: true,
-    //     trackHash: true,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-177349545-1",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-yandex-metrika`,
+      options: {
+        trackingId: "67063285",
+        webvisor: true,
+        trackHash: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "3821480494542466",
+      },
+    },
   ],
 }
