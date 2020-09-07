@@ -23,7 +23,7 @@ const MovingChecklist = () => {
       id="Moving_Checklist"
       Tag="section"
       fluid={data.TrucksBacks.childImageSharp.fluid}
-      backgroundColor={`#fff`}
+      backgroundColor={`#08172e`}
       className={style.background}
     >
       <div className="op__block">

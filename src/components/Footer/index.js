@@ -29,19 +29,19 @@ export default () => {
                       Privacy Policy
                     </a>
                   </div>
-                  <div className="mb-1">
-                    <a href="mailto:support@coloradodominatingmoves.com">
-                      support@coloradodominatingmoves.com
-                    </a>
-                  </div>
+                  <div className="mb-1"></div>
                 </div>
                 <div className={style.footer__contactsWrapper}>
                   <div className={style.footer__contacts}>
                     <div className={style.footer__contactsItem}>
                       <div className="mb-1">
-                        <b>United States</b>, Denver Co
+                        <b>United States</b>, Aurora Co
                       </div>
-                      <a href="tel:+16506819732">+1 </a>
+                      <a href="tel:720-829-7961">720-829-7961 </a>
+                      <br />
+                      <a href="mailto:support@coloradodominatingmoves.com">
+                        diegodiaz@coloradodominatingmoves.com
+                      </a>
                     </div>
                   </div>
                 </div>
