@@ -30,7 +30,6 @@ const Menu = () => {
       }
     }
   `)
-  const [navbar, setnavbar] = useState(false)
   return (
     <>
       <div className="fixed-top">
