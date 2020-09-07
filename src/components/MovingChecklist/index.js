@@ -47,7 +47,9 @@ const MovingChecklist = () => {
               </p>
             </div>
             <div className={style.heading__body}>
-              <p className=" text-center">Schedule your moving service early to reserve your moving day</p>
+              <p className=" text-center">
+                Schedule your moving service early to reserve your moving day
+              </p>
             </div>
           </div>
           <div className="row">
