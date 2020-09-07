@@ -10,34 +10,27 @@
     margin: rem(25);
     padding: rem(6);
     color: #08172e;
-    background-color: #fff;
     border-radius: rem(10);
-    box-shadow: 0 0 0 rem(4) #f2b121;
+    text-shadow: 1px 1px 2px hsla(41, 98%, 55%, 0.493);
 
     h1 {
       padding: auto;
       margin: auto;
     }
   }
-  @media (max-width: $md-max-width) {
-    justify-content: space-around;
-  }
 
   &__item {
-    width: rem(130);
-    margin-bottom: rem(40);
-    margin: 0 rem(30) rem(40);
+    margin: auto;
+    
   }
 
   &__subtitle {
-    font-size: rem(25);
+    font-size: rem(15);
     margin: auto;
     padding: auto;
     background-color: $pastel-1;
-    border-radius: rem(10);
     box-shadow: 0 0 0 rem(4) #f2b121;
     color: #08172e;
-
   }
   &__icon {
     width: rem(130);
@@ -56,11 +49,3 @@
   }
 }
 
-// dark theme
-[data-kit-theme="dark"] {
-  .features {
-    &__icon {
-      background: $black;
-    }
-  }
-}
