@@ -30,6 +30,7 @@ const Menu = () => {
       }
     }
   `)
+  const [navbar, setnavbar] = useState(false)
   return (
     <>
       <div className="fixed-top">
@@ -54,13 +55,13 @@ const Menu = () => {
                 className={style.menu__links}
               >
                 <a href="#Services" rel="noopener noreferrer">
-                  Local &amp; Long Distance
+                  <p> Local &amp; Long Distance</p>
                 </a>
                 <a href="#Service Area" rel="noopener noreferrer">
-                  Service Area
+                  <p> Service Area</p>
                 </a>
                 <a href="#Moving Checklist" rel="noopener noreferrer">
-                  Moving Checklist
+                  <p> Moving Checklist</p>
                 </a>
               </div>
             </div>

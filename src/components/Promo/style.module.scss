@@ -2,7 +2,7 @@
 
 .promo {
   min-height: rem(200);
-  padding: 0 0 0;
+  padding: rem(25);
   overflow: hidden;
   color: $white;
   z-index: 1;
@@ -29,7 +29,7 @@
       }
     }
   }
-  
+
   &__notification {
     padding: rem(13);
     background: $dark-gray-5;

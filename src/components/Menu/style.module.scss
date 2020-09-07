@@ -47,7 +47,10 @@
     @media (max-width: $md-max-width) {
       flex-wrap: wrap;
       padding-top: rem(0);
-      margin: rem(10);
+      padding: auto;
+      padding-bottom: 0;
+      margin-bottom:0;
+      
     }
 
     a {
