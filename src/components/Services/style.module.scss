@@ -1,9 +1,23 @@
 @import "@/styles/mixins";
-
+.background{
+min-height: rem(500);
+}
 .features {
   display: flex;
   flex-wrap: wrap;
+  &__title {
+    font-size: larger;
+    margin: rem(25);
+    padding: rem(30);
+    background-color: #fff;
+    border-radius: rem(10);
+    box-shadow: 0 0 0 rem(10) #f2b121;
 
+    h1 {
+      padding: auto;
+      margin: auto;
+    }
+  }
   @media (max-width: $md-max-width) {
     justify-content: space-around;
   }

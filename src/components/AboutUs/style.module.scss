@@ -4,8 +4,8 @@
   min-height: rem(200);
   padding: 0 0 0;
   overflow: visible;
-  z-index: 10;
-  color: $white;
+  color: #fff;
+  background-color: #fff;
 
   :global(.op__block) {
     margin-bottom: 0;
@@ -34,7 +34,8 @@
     background-color: #08172e;
     margin-top: rem(-10);
     border-radius: rem(10);
-    box-shadow: 0 0 0 rem(10) #f2b121;
+    box-shadow: 0 0 0 rem(10) #fdb41a;
+
   }
   &__Truck {
     margin-left: auto;

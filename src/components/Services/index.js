@@ -1,61 +1,87 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby" // to query for image data
-
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
+import BackgroundImage from "gatsby-background-image" // to query for image data
 import style from "./style.module.scss"
+
 // TODO setup images with small icon to click into large icon with content
 export default () => {
-  const LocalMovingSmall = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "img.jpg" }) {
+      Trucks: file(relativePath: { eq: "images/img/trucksbacks.png" }) {
         childImageSharp {
           fluid {
-            base64
-            aspectRatio
-            src
-            srcSet
-            sizes
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      Local: file(relativePath: { eq: "images/img/facebook.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      Long: file(relativePath: { eq: "images/img/instagram.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      Special: file(relativePath: { eq: "images/img/instagram.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
           }
         }
       }
     }
   `)
   return (
-    <div className="op__block" data-aos="fade-up" data-aos-delay="400">
-      <div className="container-fluid">
-        <div className="op__block__heading text-center">Our Services</div>
+    <BackgroundImage
+      id="Services_Background"
+      Tag="section"
+      fluid={data.Trucks.childImageSharp.fluid}
+      backgroundColor={`#fff`}
+      className={style.background}
+    >
+      <div
+        id="Services"
+        className="container-fluid"
+        data-aos="fade-up"
+        data-aos-delay="400"
+      >
+        <div className={style.features__title}>
+          <h1 className="op__block__heading text-center">Our Services</h1>
+        </div>
         <div className={style.features}>
           <div className={style.features__item}>
             <div className={style.features__icon}>
-              <img src="/resources/img/icons/gatsby.svg" alt="GatsbyJS" />
+              <Img
+                fluid={data.Local.childImageSharp.fluid}
+                alt="Local Moving"
+              />
             </div>
-            <div className={style.features__title}>Local Moving</div>
           </div>
           <div className={style.features__item}>
             <div className={style.features__icon}>
-              <img src="/resources/img/icons/sketch.svg" alt="Sketch" />
+              <Img
+                fluid={data.Local.childImageSharp.fluid}
+                alt="Long Distance Moving"
+              />
             </div>
-            <div className={style.features__title}>Long Distance Moving</div>
           </div>
           <div className={style.features__item}>
             <div className={style.features__icon}>
-              <img src="/resources/img/icons/highcharts.svg" alt="Highcharts" />
+              <Img
+                fluid={data.Local.childImageSharp.fluid}
+                alt="Specialty Furniture"
+              />
             </div>
-            <div className={style.features__title}>Specialty Furniture</div>
-          </div>
-          <div className={style.features__item}>
-            <div className={style.features__icon}>
-              <img src="/resources/img/icons/nodejs-icon.svg" alt="NodeJS" />
-            </div>
-            <div className={style.features__title}>Packing Services</div>
-          </div>
-          <div className={style.features__item}>
-            <div className={style.features__icon}>
-              <img src="/resources/img/icons/react.svg" alt="React" />
-            </div>
-            <div className={style.features__title}>Junk Removal</div>
           </div>
         </div>
       </div>
-    </div>
+    </BackgroundImage>
   )
 }
