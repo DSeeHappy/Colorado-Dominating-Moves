@@ -7,41 +7,6 @@ import style from "./style.module.scss"
 
 // TODO setup images with small icon to click into large icon with content
 export default () => {
-  const data = useStaticQuery(graphql`
-    query {
-      Trucks: file(relativePath: { eq: "images/img/trucksbacks.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      Local: file(relativePath: { eq: "images/img/icons/home-solid.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      Long: file(relativePath: { eq: "images/img/icons/road-solid.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      Special: file(
-        relativePath: { eq: "images/img/icons/dolly-flatbed-solid.png" }
-      ) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
-
   return (
     <>
       <div id="covidhealthnotice" className={style.menu}>

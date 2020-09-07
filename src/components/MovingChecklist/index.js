@@ -127,7 +127,7 @@ const MovingChecklist = () => {
                 data-aos-delay="600"
               >
                 <ul>
-                  <li>
+                  <li className={style.card__subtitle}>
                     <h4>2 Weeks Before Your Move</h4>
                   </li>
                   <li>
@@ -158,7 +158,7 @@ const MovingChecklist = () => {
                 data-aos-delay="600"
               >
                 <ul>
-                  <li>
+                  <li className={style.card__subtitle}>
                     <h4>1 Week Before Your Move</h4>
                   </li>
                   <li>
@@ -187,7 +187,7 @@ const MovingChecklist = () => {
                 data-aos-delay="600"
               >
                 <ul>
-                  <li>
+                  <li className={style.card__subtitle}>
                     <h4>Day Before Your Move</h4>
                   </li>
                   <li>
@@ -221,7 +221,7 @@ const MovingChecklist = () => {
                 data-aos-delay="600"
               >
                 <ul>
-                  <li>
+                  <li className={style.card__subtitle}>
                     <h4>Moving Day</h4>
                   </li>
                   <li>
