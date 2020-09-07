@@ -53,16 +53,7 @@ const Quality = () => {
                 className={style.center__imglrg}
                 fluid={data.FamilyHands.childImageSharp.fluid}
               />
-              <div className={style.center__email}>
-                <a className="text-center m-4 ">
-                  diegodiaz@coloradodominatingmoves.com{" "}
-                </a>
-              </div>
-              <div className={style.center__call}>
-                <a className="text-center m-4 ">
-                  Call Or Email For Free Quote: 720-829-7961
-                </a>
-              </div>
+              
             </div>
 
             <div className="col-12 col-md-6">

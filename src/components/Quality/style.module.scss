@@ -3,23 +3,7 @@
   background-color: #d3d3d3;
   box-shadow: 0 0 0 rem(12) #fdb41a;
   margin-top: rem(10);
-  &__email {
-    margin: rem(10);
-    color: #fff;
-    text-shadow: 1px 1px 2px hsla(41, 98%, 55%, 0.247);
-    background-color: #fff;
-    box-shadow: 0 0 0 rem(5) #fdb41a;
-    border-radius: 8px;
-  }
-  &__call {
-    color: #fff;
-    background-color: #fff;
-    margin: rem(10);
 
-    text-shadow: 1px 1px 2px hsla(41, 98%, 55%, 0.247);
-    box-shadow: 0 0 0 rem(5) #fdb41a;
-    border-radius: 8px;
-  }
   &__content {
     padding-top: rem(80);
     margin: rem(20);
