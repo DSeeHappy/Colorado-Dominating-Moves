@@ -30,7 +30,6 @@ const Menu = () => {
       }
     }
   `)
-  const [navbar, setnavbar] = useState(false)
   return (
     <>
       <div className="fixed-top">
@@ -44,25 +43,24 @@ const Menu = () => {
                     fluid={data.Logo.childImageSharp.fluid}
                     alt="Colorado Dominating Moves"
                   />
-
                   <div className={style.menu__logo__descr}>
                     Professional, Fast, Efficient
                   </div>
+                  <div
+                    id="navbarToggleExternalContent"
+                    className={style.menu__links}
+                  >
+                    <a href="#Services" rel="noopener noreferrer">
+                      <p> Local &amp; Long Distance</p>
+                    </a>
+                    <a href="#Service Area" rel="noopener noreferrer">
+                      <p> Service Area</p>
+                    </a>
+                    <a href="#Moving Checklist" rel="noopener noreferrer">
+                      <p> Moving Checklist</p>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div
-                id="navbarToggleExternalContent"
-                className={style.menu__links}
-              >
-                <a href="#Services" rel="noopener noreferrer">
-                  <p> Local &amp; Long Distance</p>
-                </a>
-                <a href="#Service Area" rel="noopener noreferrer">
-                  <p> Service Area</p>
-                </a>
-                <a href="#Moving Checklist" rel="noopener noreferrer">
-                  <p> Moving Checklist</p>
-                </a>
               </div>
             </div>
           </div>

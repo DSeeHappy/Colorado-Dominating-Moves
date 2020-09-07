@@ -43,6 +43,7 @@
   &__links {
     display: flex;
     padding-top: rem(20);
+    padding-left:rem(20);
 
     @media (max-width: $md-max-width) {
       flex-wrap: wrap;
@@ -50,7 +51,8 @@
       padding: auto;
       padding-bottom: 0;
       margin-bottom:0;
-      
+      padding-left:rem(2);
+
     }
 
     a {
