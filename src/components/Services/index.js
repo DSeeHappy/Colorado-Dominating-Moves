@@ -15,21 +15,23 @@ export default () => {
           }
         }
       }
-      Local: file(relativePath: { eq: "images/img/facebook.png" }) {
+      Local: file(relativePath: { eq: "images/img/icons/home-solid.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      Long: file(relativePath: { eq: "images/img/instagram.png" }) {
+      Long: file(relativePath: { eq: "images/img/icons/road-solid.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      Special: file(relativePath: { eq: "images/img/instagram.png" }) {
+      Special: file(
+        relativePath: { eq: "images/img/icons/dolly-flatbed-solid.png" }
+      ) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
@@ -57,28 +59,36 @@ export default () => {
         </div>
         <div className={style.features}>
           <div className={style.features__item}>
-            <div className={style.features__icon}>
+            <a className={style.features__icon}>
               <Img
+                className={style.features__Img}
                 fluid={data.Local.childImageSharp.fluid}
                 alt="Local Moving"
               />
-            </div>
+            </a>
+            <div className={style.features__subtitle}>Local Moving</div>
+
           </div>
           <div className={style.features__item}>
-            <div className={style.features__icon}>
+            <a className={style.features__icon}>
               <Img
-                fluid={data.Local.childImageSharp.fluid}
+                className={style.features__Img}
+                fluid={data.Long.childImageSharp.fluid}
                 alt="Long Distance Moving"
               />
-            </div>
+            </a>
+            <div className={style.features__subtitle}>Long Distance Moving</div>
+
           </div>
           <div className={style.features__item}>
-            <div className={style.features__icon}>
+            <a className={style.features__icon}>
               <Img
-                fluid={data.Local.childImageSharp.fluid}
+                className={style.features__Img}
+                fluid={data.Special.childImageSharp.fluid}
                 alt="Specialty Furniture"
               />
-            </div>
+            </a>
+            <div className={style.features__subtitle}>Specialty Furniture</div>
           </div>
         </div>
       </div>

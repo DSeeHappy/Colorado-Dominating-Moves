@@ -1,6 +1,6 @@
 @import "@/styles/mixins";
-.background{
-min-height: rem(500);
+.background {
+  min-height: rem(500);
 }
 .features {
   display: flex;
@@ -28,12 +28,15 @@ min-height: rem(500);
     margin: 0 rem(30) rem(40);
   }
 
-  &__title {
-    text-align: center;
-    font-size: rem(21);
-    line-height: 1.4;
-  }
+ 
+  &__subtitle {
+    font-size: rem(25);
+    margin: auto;
+    padding: auto;
+    background-color:$pastel-1;
+    border-radius: rem(10);
 
+  }
   &__icon {
     width: rem(130);
     height: rem(130);
@@ -44,9 +47,11 @@ min-height: rem(500);
     align-items: center;
     justify-content: center;
 
-    img {
-      width: rem(60);
-    }
+   
+  }
+  &__Img{
+    width: rem(60);
+    height: rem(60);
   }
 }
 
