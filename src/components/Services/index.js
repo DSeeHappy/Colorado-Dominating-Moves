@@ -55,7 +55,7 @@ export default () => {
         data-aos-delay="400"
       >
         <div className={style.features__title}>
-          <h1 className="op__block__heading text-center">Our Services</h1>
+          <h1 className="text-center">Our Services</h1>
         </div>
         <div className={style.features}>
           <div className={style.features__item}>

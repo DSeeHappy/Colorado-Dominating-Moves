@@ -8,7 +8,8 @@
   &__title {
     font-size: larger;
     margin: rem(25);
-    padding: rem(10);
+    padding: rem(6);
+    color: #08172e;
     background-color: #fff;
     border-radius: rem(10);
     box-shadow: 0 0 0 rem(4) #f2b121;
@@ -35,6 +36,8 @@
     background-color: $pastel-1;
     border-radius: rem(10);
     box-shadow: 0 0 0 rem(4) #f2b121;
+    color: #08172e;
+
   }
   &__icon {
     width: rem(130);
