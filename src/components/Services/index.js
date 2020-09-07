@@ -67,7 +67,6 @@ export default () => {
               />
             </a>
             <div className={style.features__subtitle}>Local Moving</div>
-
           </div>
           <div className={style.features__item}>
             <a className={style.features__icon}>
@@ -78,7 +77,6 @@ export default () => {
               />
             </a>
             <div className={style.features__subtitle}>Long Distance Moving</div>
-
           </div>
           <div className={style.features__item}>
             <a className={style.features__icon}>
@@ -88,7 +86,7 @@ export default () => {
                 alt="Specialty Furniture"
               />
             </a>
-            <div className={style.features__subtitle}>Specialty Furniture</div>
+            <h1 className={style.features__subtitle}>Specialty Furniture</h1>
           </div>
         </div>
       </div>

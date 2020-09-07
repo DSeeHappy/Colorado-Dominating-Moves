@@ -8,10 +8,10 @@
   &__title {
     font-size: larger;
     margin: rem(25);
-    padding: rem(30);
+    padding: rem(10);
     background-color: #fff;
     border-radius: rem(10);
-    box-shadow: 0 0 0 rem(10) #f2b121;
+    box-shadow: 0 0 0 rem(4) #f2b121;
 
     h1 {
       padding: auto;
@@ -28,14 +28,13 @@
     margin: 0 rem(30) rem(40);
   }
 
- 
   &__subtitle {
     font-size: rem(25);
     margin: auto;
     padding: auto;
-    background-color:$pastel-1;
+    background-color: $pastel-1;
     border-radius: rem(10);
-
+    box-shadow: 0 0 0 rem(4) #f2b121;
   }
   &__icon {
     width: rem(130);
@@ -46,10 +45,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-   
+    box-shadow: 0 0 0 rem(4) #f2b121;
   }
-  &__Img{
+  &__Img {
     width: rem(60);
     height: rem(60);
   }
