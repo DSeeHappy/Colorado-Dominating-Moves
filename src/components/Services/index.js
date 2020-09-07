@@ -42,8 +42,6 @@ export default () => {
     }
   `)
 
-  function openShit() {}
-
   return (
     <BackgroundImage
       id="Services_Background"
@@ -78,7 +76,6 @@ export default () => {
               </Card.Header>
               <Accordion.Collapse eventKey="0">
                 <Card.Body>
-                  {" "}
                   Our team can help take out the stress from moving. Colorado
                   Dominating Moves dominates the competition in any move within
                   Colorado. We focus on High Quality Service for both Home &amp;
@@ -91,7 +88,7 @@ export default () => {
             <Card>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                  <a onClick={openShit} className={style.features__icon}>
+                  <a className={style.features__icon}>
                     <Img
                       className={style.features__Img}
                       fluid={data.Long.childImageSharp.fluid}
@@ -110,7 +107,8 @@ export default () => {
                   Moves, we know that moving is one of the most stressful
                   moments. We focus on alleviating as much of that stress as
                   possible. Let our team move you to your new home without the
-                  moving stress. We let you focus on the journey to your new home
+                  moving stress. We let you focus on the journey to your new
+                  home
                 </Card.Body>
               </Accordion.Collapse>
             </Card>

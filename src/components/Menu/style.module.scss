@@ -46,12 +46,17 @@
 
     @media (max-width: $md-max-width) {
       flex-wrap: wrap;
-      display: none;
+      padding: rem(0);
+      font-size: small;
     }
 
     a {
       display: block;
       border-radius: rem(2);
+      @media (max-width: $md-max-width) {
+        padding: rem(0);
+        font-size: small;
+      }
       @include transition-middle;
       color: $white;
       padding: 0;

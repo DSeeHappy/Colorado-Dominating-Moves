@@ -48,21 +48,6 @@ const Menu = () => {
                   <div className={style.menu__logo__descr}>
                     Professional, Fast, Efficient
                   </div>
-                  <div className={style.menu__navbar}>
-                    <nav class="navbar navbar-dark ">
-                      <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarToggleExternalContent"
-                        aria-controls="navbarToggleExternalContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                      >
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                    </nav>
-                  </div>
                 </div>
               </div>
               <div
@@ -74,9 +59,6 @@ const Menu = () => {
                 </a>
                 <a href="#Service Area" rel="noopener noreferrer">
                   Service Area
-                </a>
-                <a href="#Hire Us" rel="noopener noreferrer">
-                  Hire Us
                 </a>
                 <a href="#Moving Checklist" rel="noopener noreferrer">
                   Moving Checklist

@@ -26,7 +26,7 @@ const MovingChecklist = () => {
       backgroundColor={`#08172e`}
       className={style.background}
     >
-      <div className="op__block">
+      <div id="Moving Checklist" className="op__block">
         <div className="container-fluid">
           <div className={style.heading}>
             <div className={style.heading__title}>
