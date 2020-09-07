@@ -43,20 +43,20 @@ export default () => {
                 data-aos-delay="400"
                 className={style.unlock__tag}
               >
-                <p>
                   Aurora | Lakewood | Englewood | Westminster | Arvada |
                   Commerce City | Greenwood Village | Parker | Highlands Ranch |
                   Littleton | Broomfield | Longmont | Colorado Springs | Boulder
                   | Golden | Castle Rock | Fort Collins
-                </p>
+                  <br/>
+                 Call For Out Of State Moving Information
               </div>
               <a
                 href="tel:7208297961"
                 className="op__btn  op__btn--blue"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-delay="600"
               >
-                Call Now
+                Call Now For Free Quote
               </a>
             </div>
           </div>

@@ -34,6 +34,8 @@
     background: hsla(223, 57%, 19%, 0.842);
     border-radius: 10px;
     margin: rem(20) rem(10);
+    font-size: rem(20);
+    text-shadow: 1px 1px 2px hsla(41, 98%, 55%, 0.493);
 
   }
 }
@@ -41,14 +43,15 @@
   &__item {
     border: 1px solid $border;
     border-radius: 10px;
-    color:hsla(216, 70%, 11%, 0.83);
+    color: hsla(216, 70%, 11%, 0.83);
     padding: auto;
     margin: auto;
     text-align: center;
     background-color: rgba(253, 181, 28, 0.732);
+    
     h1 {
-     
-      text-shadow: 1px 1px 2px rgb(255, 255, 255);
+      text-shadow: 1px 1px 2px hsl(0, 0%, 100%);
+
     }
     li {
       list-style-type: none;
@@ -57,7 +60,6 @@
     }
     p {
       margin-bottom: rem(40);
-
     }
 
     @media (max-width: $lg-max-width) {

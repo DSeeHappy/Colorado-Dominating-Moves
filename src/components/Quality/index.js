@@ -50,7 +50,7 @@ const Quality = () => {
                 </div>
 
                 <div className={style.center__body}>
-                  <p className="op__descr text-center text-muted mb-5">
+                  <p className="op__descr text-center  mb-5">
                     Our moving teams are trained and always ready to help you
                     with your move.
                     <hr />
