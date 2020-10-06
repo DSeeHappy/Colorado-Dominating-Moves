@@ -3,7 +3,6 @@ import MainLayout from "@/layouts/MainLayout"
 import Promo from "@/components/Promo"
 import Services from "@/components/Services"
 import AboutUs from "@/components/AboutUs"
-import Covid from "@/components/Covid"
 import MovingChecklist from "@/components/MovingChecklist"
 import Quality from "@/components/Quality"
 import Reviews from "@/components/Reviews"
@@ -17,7 +16,6 @@ export default () => {
       <AboutUs />
       <Services />
       <Quality />
-      <Covid />
       <MovingChecklist />
       <ServiceArea />
     </MainLayout>

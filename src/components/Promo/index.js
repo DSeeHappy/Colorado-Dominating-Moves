@@ -78,12 +78,7 @@ const Promo = () => {
                       >
                         Call Now
                       </a>
-                      <a
-                        href="#covidhealthnotice"
-                        className="op__btn op__btn--lightDark"
-                      >
-                        Covid Health Notice
-                      </a>
+                     
                     </div>
                   </ul>
                 </div>

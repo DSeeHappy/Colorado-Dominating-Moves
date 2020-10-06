@@ -2,9 +2,15 @@
 
 .menu {
   background: $pastel-1;
-  padding-bottom: 0;
-  p{
-    font-size: larger;
+  padding-top: rem(30);
+  padding-bottom: rem(10);
+  text-align: center;
+  h4 {
+    font-size: xx-large;
+    padding: rem(10);
+  }
+  p {
+    font-size: x-large;
     padding: rem(10);
   }
   box-shadow: 0 0 0 rem(5) #f2b121;
