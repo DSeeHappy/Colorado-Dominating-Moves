@@ -39,8 +39,8 @@ export default () => {
                       </div>
                       <a href="tel:720-829-7961">720-829-7961 </a>
                       <br />
-                      <a href="mailto:support@coloradodominatingmoves.com">
-                        diegodiaz@coloradodominatingmoves.com
+                      <a href="mailto:colodomo303@gmail.com">
+                        colodomo303@gmail.com
                       </a>
                     </div>
                   </div>

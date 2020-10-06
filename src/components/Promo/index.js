@@ -15,13 +15,27 @@ const Promo = () => {
           }
         }
       }
+      Facebook: file(relativePath: { eq: "images/img/Facebook.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      Google: file(relativePath: { eq: "images/img/Google.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
   return (
     <>
       <BackgroundImage
-        id="Moving_Checklist"
+        id="coloradopromocenter"
         Tag="section"
         fluid={data.background.childImageSharp.fluid}
         backgroundColor={`#fdb41a`}
@@ -29,30 +43,13 @@ const Promo = () => {
       >
         <div className={style.promo}>
           <div className="container">
-            <div
-              className={style.promo__notification}
-              data-aos="fade-down"
-              data-aos-delay="0"
-            >
-              <span>
-                <span role="img" aria-label="">
-                  👉
-                </span>{" "}
-                Gooooood offer only this month!{" "}
-                <a href="tel:7208297961">Call Now</a>
-              </span>
-            </div>
             <div className={style.promo__inner}>
               <div className="row">
                 <div className="col-md-7">
                   <h1 data-aos="fade-up">
                     Colorado's Most Professional Movers
                   </h1>
-                  <p
-                    className="text"
-                    data-aos="fade-down"
-                    data-aos-delay="100"
-                  >
+                  <p className="text" data-aos="fade-down" data-aos-delay="100">
                     Let Our Professional Home &amp; Office Movers Worry About
                     Your Move
                   </p>
@@ -91,6 +88,25 @@ const Promo = () => {
                   </ul>
                 </div>
               </div>
+            </div>
+            <div
+              className={style.promo__notification}
+              data-aos="fade-down"
+              data-aos-delay="0"
+            >
+              <p> 👉 Review Us On</p>
+              <a
+                href="https://www.google.com/maps/place/Colorado+Dominating+Moves/@39.6743501,-106.0195462,8z/data=!3m1!4b1!4m5!3m4!1s0x876c6377cf7e1187:0xb742772b13c5bda8!8m2!3d39.6776514!4d-104.8957246"
+                className={style.promo__notification__img}
+              >
+                <Img fluid={data.Google.childImageSharp.fluid} />
+              </a>
+              <a
+                href="https://www.facebook.com/colodomo303/"
+                className={style.promo__notification__img}
+              >
+                <Img fluid={data.Facebook.childImageSharp.fluid} />
+              </a>
             </div>
           </div>
         </div>
