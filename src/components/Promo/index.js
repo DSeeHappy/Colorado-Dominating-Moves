@@ -15,7 +15,7 @@ const Promo = () => {
           }
         }
       }
-      Facebook: file(relativePath: { eq: "images/img/Facebook.png" }) {
+      Facebook: file(relativePath: { eq: "images/img/facebook.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
