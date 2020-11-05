@@ -1,0 +1,13 @@
+stages:
+- name: build
+  steps:
+  - runScriptConfig:
+      image: node:latest
+      shellScript: gatsby build
+- name: serve
+  steps:
+  - runScriptConfig:
+      image: node:latest
+      shellScript: gatsby serve
+timeout: 60
+notification: {}
