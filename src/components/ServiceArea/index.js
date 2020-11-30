@@ -43,12 +43,10 @@ export default () => {
                 data-aos-delay="400"
                 className={style.unlock__tag}
               >
-                  Aurora | Lakewood | Englewood | Westminster | Arvada |
-                  Commerce City | Greenwood Village | Parker | Highlands Ranch |
-                  Littleton | Broomfield | Longmont | Colorado Springs | Boulder
-                  | Golden | Castle Rock | Fort Collins
-                  <br/>
-                 Call For Out Of State Moving Information
+                Aurora | Lakewood | Englewood | Westminster | Arvada | Commerce
+                City | Greenwood Village | Parker | Highlands Ranch | Littleton
+                | Broomfield | Longmont | Colorado Springs | Boulder | Golden |
+                Castle Rock | Fort Collins
               </div>
               <a
                 href="tel:7208297961"

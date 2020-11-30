@@ -52,7 +52,7 @@ const Menu = () => {
 
                 <div className={style.menu__links}>
                   <a href="#Services" rel="noopener noreferrer">
-                    <p> Local &amp; Long Distance</p>
+                    <p>Home &amp; Office Moves</p>
                   </a>
                   <a href="#Service Area" rel="noopener noreferrer">
                     <p> Service Area</p>
@@ -68,7 +68,7 @@ const Menu = () => {
             <div className={style.navbar}>
               <div className={style.menu__navbar__links}>
                 <a href="#Services" rel="noopener noreferrer">
-                  <p> Local &amp; Long Distance</p>
+                  <p> Home &amp; Office Moves</p>
                 </a>
                 <a href="#Service Area" rel="noopener noreferrer">
                   <p> Service Area</p>

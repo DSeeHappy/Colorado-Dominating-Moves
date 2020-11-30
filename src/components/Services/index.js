@@ -71,15 +71,20 @@ export default () => {
                       alt="Local Moving"
                     />
                   </a>
-                  Local Home &amp; Business Moving
+                  Home Moving
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
                 <Card.Body>
-                  Our team can help take out the stress from moving. Colorado
-                  Dominating Moves dominates the competition in any move within
-                  Colorado. We focus on High Quality Service for both Home &amp;
-                  Business moves.
+                  The do it yourself approach is always understandable, we know
+                  everyone has a budget. But when it comes to moving your
+                  property, the decision to leave it to the professionals may be
+                  your best decision during your move. With Colorado Dominating
+                  Moves, we know that moving is one of the most stressful
+                  moments. We focus on alleviating as much of that stress as
+                  possible. Let our team move you to your new home without the
+                  moving stress. We let you focus on the journey to your new
+                  home
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -95,20 +100,15 @@ export default () => {
                       alt="Long Distance Moving"
                     />
                   </a>
-                  Long Distance Moving Service
+                  Office Moving
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
                 <Card.Body>
-                  The do it yourself approach is always understandable, we know
-                  everyone has a budget. But when it comes to moving your
-                  property, the decision to leave it to the professionals may be
-                  your best decision during your move. With Colorado Dominating
-                  Moves, we know that moving is one of the most stressful
-                  moments. We focus on alleviating as much of that stress as
-                  possible. Let our team move you to your new home without the
-                  moving stress. We let you focus on the journey to your new
-                  home
+                  Our team can help take out the stress from moving. Colorado
+                  Dominating Moves dominates the competition in any move within
+                  Colorado. Helping your business get back to focusing on getting back to work
+                  instead worrying about the move.
                 </Card.Body>
               </Accordion.Collapse>
             </Card>

@@ -59,10 +59,10 @@ const Promo = () => {
                     data-aos-delay="200"
                   >
                     <li>
-                      <span>Local Moves</span>
+                      <span>Home Moves</span>
                     </li>
                     <li>
-                      <span>Long Distance Moves</span>
+                      <span>Office Moves</span>
                     </li>
                     <li>
                       <span>Specialty Furniture</span>

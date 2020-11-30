@@ -73,7 +73,7 @@ const Quality = () => {
                     just stuff we're moving. It's what makes your house a home
                     and we want to respect that on every level.
                     <br />
-                    From the loading stacked to the tip top of the truck to the
+                    From the furniture loading, to the
                     delivery to your new home.
                     <hr /> Our professional are always making sure their first
                     priority is High Quality Service.

@@ -21,7 +21,7 @@
 
   &__item {
     margin: auto;
-    
+    min-width: rem(50);
   }
 
   &__subtitle {
@@ -33,7 +33,7 @@
     color: #08172e;
   }
   &__icon {
-    width: rem(130);
+    min-width: rem(220);
     height: rem(130);
     background: $pastel-1;
     border-radius: 100px;
