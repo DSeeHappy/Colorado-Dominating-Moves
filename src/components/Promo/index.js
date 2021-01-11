@@ -29,6 +29,13 @@ const Promo = () => {
           }
         }
       }
+      BBB: file(relativePath: { eq: "images/img/bbb-review.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
@@ -78,7 +85,6 @@ const Promo = () => {
                       >
                         Call Now
                       </a>
-                     
                     </div>
                   </ul>
                 </div>
@@ -101,6 +107,12 @@ const Promo = () => {
                 className={style.promo__notification__img}
               >
                 <Img fluid={data.Facebook.childImageSharp.fluid} />
+              </a>
+              <a
+                href="https://www.bbb.org/us/co/aurora/profile/moving-companies/colorado-dominating-moves-0885-90277041/customer-reviews"
+                className={style.promo__notification__bbb}
+              >
+                <Img fluid={data.BBB.childImageSharp.fluid} />
               </a>
             </div>
           </div>

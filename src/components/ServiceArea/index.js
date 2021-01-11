@@ -14,6 +14,13 @@ export default () => {
           }
         }
       }
+      BBB: file(relativePath: { eq: "images/img/bbb-quote.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
   return (
@@ -48,13 +55,12 @@ export default () => {
                 | Broomfield | Longmont | Colorado Springs | Boulder | Golden |
                 Castle Rock | Fort Collins
               </div>
-              <a
-                href="tel:7208297961"
-                className="op__btn  op__btn--blue"
-                data-aos="fade-up"
-                data-aos-delay="600"
-              >
-                Call Now For Free Quote
+
+              <a href="https://www.bbb.org/denver/quote/request-colorado-dominating-moves-90277041">
+                <Img
+                  className={style.unlock__img}
+                  fluid={data.BBB.childImageSharp.fluid}
+                />
               </a>
             </div>
           </div>

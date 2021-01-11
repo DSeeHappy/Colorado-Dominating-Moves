@@ -16,6 +16,7 @@ export default () => {
       <AboutUs />
       <Services />
       <Quality />
+      <Reviews />
       <MovingChecklist />
       <ServiceArea />
     </MainLayout>

@@ -38,6 +38,12 @@
     text-shadow: 1px 1px 2px hsla(41, 98%, 55%, 0.493);
 
   }
+  &__img {
+ max-width: 15rem;
+ min-width: 10rem;
+margin: auto;
+    
+  }
 }
 .card {
   &__item {

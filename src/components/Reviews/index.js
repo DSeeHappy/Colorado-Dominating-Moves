@@ -1,19 +1,20 @@
 import React from "react"
 import style from "./style.module.scss"
-
 export default () => {
   return (
-    <div className="op__block">
+    <div className="op__block pt-3">
       <div className="container-fluid">
         <h3 className="text-center mb-4">
           Customer reviews
           <br />
-          50k+ satisfied clients worldwide
+          Quality work from a quality team.
         </h3>
+
+        <hr />
         <p className="op__descr text-center text-muted mb-5">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+          When it comes to quality, our team is recommended by name. Every
+          customer remembers Diego and his crew for the amazing moves they
+          provide.
         </p>
         <div className="row">
           <div className="col-md-4">
@@ -22,25 +23,21 @@ export default () => {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <div className={style.reviews__title}>Jhon Allen</div>
+              <div className={style.reviews__title}>Andrew L</div>
               <div className={`${style.reviews__company} text-muted`}>
-                Soft Networks, Germany
+                <a href="https://www.google.com/maps/place/Colorado+Dominating+Moves/@39.6722611,-106.0168574,8z/data=!3m1!4b1!4m5!3m4!1s0x876c6377cf7e1187:0xb742772b13c5bda8!8m2!3d39.6776514!4d-104.8957246">
+                  Reviewed on Google
+                </a>
               </div>
-              <div className={style.reviews__stars}>
-                <i className="fe fe-star"></i>
-                <i className="fe fe-star"></i>
-                <i className="fe fe-star"></i>
-                <i className="fe fe-star"></i>
-                <i className="fe fe-star"></i>
-              </div>
+
               <p>
-                The quality is incredible high and the flexibility is limitless!
-                Clean UI Admin Template accelerated development 3x times and
-                reduced QA issues by 50%. It's probably saved us $30,000 on this
-                project.
+                I hired Diego and his crew. They did a great job and very
+                reasonably priced in comparison to other quotes I got. I was
+                very impressed that I hired them for 2 other jobs and will
+                continue to call on Colorado Dominating Moves.
               </p>
               <p>
-                <strong>Highly recommended to buy!</strong>
+                <strong>They did a great job</strong>
               </p>
             </div>
           </div>
@@ -50,25 +47,27 @@ export default () => {
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              <div className={style.reviews__title}>Benjamin Kouba</div>
+              <div className={style.reviews__title}>Douglas</div>
               <div className={`${style.reviews__company} text-muted`}>
-                LEAF9.com, United States
+                <a href="https://www.google.com/maps/place/Colorado+Dominating+Moves/@39.6722611,-106.0168574,8z/data=!3m1!4b1!4m5!3m4!1s0x876c6377cf7e1187:0xb742772b13c5bda8!8m2!3d39.6776514!4d-104.8957246">
+                  Reviewed on Google
+                </a>{" "}
+                <div className={style.reviews__stars}>
+               
               </div>
-              <div className={style.reviews__stars}>
-                <i className="fe fe-star"></i>
-                <i className="fe fe-star"></i>
-                <i className="fe fe-star"></i>
-                <i className="fe fe-star"></i>
-                <i className="fe fe-star"></i>
               </div>
+
               <p>
-                I've looked at hundreds of bootstrap themes, and this one is by
-                far the best I've come across for our project. The design is
-                modern, and not cluttered. The code is clean and easily
-                manageable, and their customer support has been excellent.
+                I had a last minute move i needed. I received this companies
+                card from a property management/real estate group where I was
+                moving to. Colorado Dominating Moves had the best rate out of
+                two other's i called - so it was an easy choice who I'd select.
+                The movers Diego and Luis took care of my stuff and knocked out
+                the task quickly and efficiently. I really appreciate your guys
+                work. Thank you again for helping me.
               </p>
               <p>
-                <strong>It's new, but this one is definitely a winner!</strong>
+                <strong>I really appreciate your guys work</strong>
               </p>
             </div>
           </div>
@@ -78,23 +77,21 @@ export default () => {
               data-aos="fade-up"
               data-aos-delay="600"
             >
-              <div className={style.reviews__title}>Tom N</div>
+              <div className={style.reviews__title}>Andrew B</div>
               <div className={`${style.reviews__company} text-muted`}>
-                Clean UI Customer, United States
+                <a href="https://www.google.com/maps/place/Colorado+Dominating+Moves/@39.6722611,-106.0168574,8z/data=!3m1!4b1!4m5!3m4!1s0x876c6377cf7e1187:0xb742772b13c5bda8!8m2!3d39.6776514!4d-104.8957246">
+                  Reviewed on Google
+                </a>
               </div>
-              <div className={style.reviews__stars}>
-                <i className="fe fe-star"></i>
-                <i className="fe fe-star"></i>
-                <i className="fe fe-star"></i>
-                <i className="fe fe-star"></i>
-                <i className="fe fe-star"></i>
-              </div>
+
               <p>
-                I have over 12 years of full stack web programming experience.
-                They did a really awesome job with this.
+                I hired Diego and his crew for my move and ill be using him
+                again when we close on our next home. Very professional and
+                worked around our busy Schedule. Thanks Diego. Glad I could
+                help.
               </p>
               <p>
-                <strong>Well worthwhile. Great time saver.</strong>
+                <strong>Very Professional</strong>
               </p>
             </div>
           </div>
