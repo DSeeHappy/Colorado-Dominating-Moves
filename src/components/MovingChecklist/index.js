@@ -57,20 +57,6 @@ const MovingChecklist = () => {
                 name: "Lots of patience",
               },
             ],
-            tool: [
-              {
-                "@type": "HowToTool",
-                name: "notched trowel",
-              },
-              {
-                "@type": "HowToTool",
-                name: "bucket",
-              },
-              {
-                "@type": "HowToTool",
-                name: "large sponge",
-              },
-            ],
             step: [
               {
                 "@type": "HowToStep",
