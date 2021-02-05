@@ -1,8 +1,11 @@
+import { Card } from 'antd';
+
+const { Meta } = Card;
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import BackgroundImage from "gatsby-background-image"
-
+import { Title, Link, Meta } from "react-head";
 import style from "./style.module.scss"
 
 const MovingChecklist = () => {
@@ -19,7 +22,9 @@ const MovingChecklist = () => {
   `)
 
   return (
-    <BackgroundImage
+ <>
+ 
+      <BackgroundImage
       id="Moving_Checklist"
       Tag="section"
       fluid={data.TrucksBacks.childImageSharp.fluid}
@@ -250,6 +255,7 @@ const MovingChecklist = () => {
         </div>
       </div>
     </BackgroundImage>
+ </>
   )
 }
 export default MovingChecklist
