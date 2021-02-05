@@ -36,14 +36,14 @@ export default ({ children }) => {
             "We dominate the competition with the best service and prices. When it comes to quality, our team is recommended by name. Every customer remembers Diego and his crew for the amazing moves they provide."
           }
         />
-        <meta property="og:title" content="Colorado Dominating Move" />
+        <meta property="og:title" content="Colorado Dominating Moves" />
         <meta property="og:type" content="LocalBusiness" />
         <link rel="canonical" href="https://coloradodominatingmoves.com" />
         <JsonLd>
           {{
             "@context": "http://schema.org",
             "@type": "LocalBusiness",
-            name: "Colorado's Most Professional Movers",
+            name: "Colorado Dominating Moves",
             image:
               "https://dominatingmoves.com/static/5d0a9762acc1dd77e9c465e7f240a4ae/630fb/favicon.png",
             telephone: "720-829-7961",
