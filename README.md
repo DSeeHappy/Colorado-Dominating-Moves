@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/95d14c0f-cc82-42bd-8470-e078bec4b1d0/deploy-status)](https://app.netlify.com/sites/colorado-dominating-moves/deploys)
 ### DSEEHAPPY | Colorado Dominating Moves ###
 https://coloradodominatingmoves.com
 

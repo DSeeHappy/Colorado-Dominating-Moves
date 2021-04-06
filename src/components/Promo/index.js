@@ -97,13 +97,13 @@ const Promo = () => {
             >
               <p> 👉 Review Us On</p>
               <a
-                href="https://www.google.com/maps/place/Colorado+Dominating+Moves/@39.6743501,-106.0195462,8z/data=!3m1!4b1!4m5!3m4!1s0x876c6377cf7e1187:0xb742772b13c5bda8!8m2!3d39.6776514!4d-104.8957246"
+                href="https://g.page/colorado-dominating-moves/review?rc"
                 className={style.promo__notification__img}
               >
                 <Img fluid={data.Google.childImageSharp.fluid} />
               </a>
               <a
-                href="https://www.facebook.com/colodomo303/"
+                href="https://www.facebook.com/colodomo303/reviews"
                 className={style.promo__notification__img}
               >
                 <Img fluid={data.Facebook.childImageSharp.fluid} />
