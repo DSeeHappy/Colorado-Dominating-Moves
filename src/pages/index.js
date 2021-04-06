@@ -11,14 +11,17 @@ import Form from "@/components/Form"
 
 export default () => {
   return (
-    <MainLayout>
-      <Promo />
-      <AboutUs />
-      <Services />
-      <Quality />
-      <Reviews />
-      <MovingChecklist />
-      <ServiceArea />
-    </MainLayout>
+    <>
+    
+      <MainLayout>
+        <Promo />
+        <AboutUs />
+        <Services />
+        <Quality />
+        <Reviews />
+        <MovingChecklist />
+        <ServiceArea />
+      </MainLayout>
+    </>
   )
 }

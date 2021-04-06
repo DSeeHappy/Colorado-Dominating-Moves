@@ -28,17 +28,63 @@ export default ({ children }) => {
   return (
     <>
       <Helmet>
-        <title>Colorado Dominating Moves</title>
-        <meta name="description" content={"Colorado's Best Moving Company"} />
+        <title>Colorado's Most Professional Movers</title>
+        <meta name="title" content="Colorado's Most Professional Movers" />
+        <meta
+          name="description"
+          content="Colorado's Best Moving Company |
+Let Our Professional Home &amp; Office Movers Worry About Your Move
+
+Home Moves |
+Office Moves |
+Specialty Furniture"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://coloradodominatingmoves.com/"
+        />
+        <meta
+          property="og:title"
+          content="Colorado's Most Professional Movers"
+        />
         <meta
           property="og:description"
-          content={
-            "We dominate the competition with the best service and prices. When it comes to quality, our team is recommended by name. Every customer remembers Diego and his crew for the amazing moves they provide."
-          }
+          content="Colorado's Best Moving Company |
+Let Our Professional Home &amp; Office Movers Worry About Your Move
+
+Home Moves |
+Office Moves |
+Specialty Furniture"
         />
-        <meta property="og:title" content="Colorado Dominating Moves" />
-        <meta property="og:type" content="LocalBusiness" />
-        <link rel="canonical" href="https://coloradodominatingmoves.com" />
+        <meta
+          property="og:image"
+          content="https://dominatingmoves.s3-us-west-2.amazonaws.com/Colorado-Dominating-Moves-Aurora-CO-Logo2.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://coloradodominatingmoves.com/"
+        />
+        <meta
+          property="twitter:title"
+          content="Colorado's Most Professional Movers"
+        />
+        <meta
+          property="twitter:description"
+          content="Colorado's Best Moving Company |
+Let Our Professional Home &amp; Office Movers Worry About Your Move
+
+Home Moves |
+Office Moves |
+Specialty Furniture"
+        />
+        <meta
+          property="twitter:image"
+          content="https://dominatingmoves.s3-us-west-2.amazonaws.com/Colorado-Dominating-Moves-Aurora-CO-Logo2.png"
+        />
         <JsonLd>
           {{
             "@context": "http://schema.org",
